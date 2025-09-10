@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Please wait…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin:0;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      color:#333;
+      background:#fff;
+    }
+  </style>
+  <script>
+    // Redirect after 3 seconds (adjust as needed)
+    setTimeout(() => {
+      window.location.href = "https://remora.bubbleapps.io/"; 
+    }, 3000);
+  </script>
+</head>
+<body>
+  Please wait…
+</body>
+</html>
